@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		function user(){
+			var userName=document.getElementById("username").value
+			/*var textData=document.getElementsByClassName("para")
+			console.log(textData.length)
+			for (var i=0;i<textData.length;i++) {
+			     console.log(textData[i].innerHTML)
+			}
+            var listOfUl=document.getElementsByTagName("li")
+            for(var d=0;d<listOfUl.length;d++){
+            	console.log(listOfUl[d].innerHTML)
+            }*/
+            document.getElementById("aasritha").innerHTML=userName
+		}
+	</script>
+</head>
+<body>
+     <input id="username"/>
+     <h1>Name is:<span id="aasritha">i am unique</span></h1>
+    <!-- <p class="para">who is bhagya</p>
+    <p class="para">bhagya is mad</p>
+    <h1 class="para">bhagya eyes are like pig</h1>
+    <ul>
+    	<li>aasritha</li>
+    	<li>bhagya</li>
+    	<li>bhavya</li>
+    	<li>teddy</li>
+    	<li>panda</li>
+    </ul> --> 
+    <button onclick="user()">Submit</button>
+</body>
+</html>
